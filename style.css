@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+body{
+    background: #1A0B2E;
+}
+
+.container{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+
+}
+/*nav styling*/
+.wave{
+  background: linear-gradient(90deg, #FFB347 0%, #FF2FD8 50%, #7B2FFF 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+}
+.nav-menu ul li a{
+    font-weight: 500;
+    font-size: 1rem;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.nav-menu ul{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+.nav-btn{
+   width: 135px;
+   padding: 12px 16px;
+   border-radius: 10000px;
+   color: #FFFFFF;
+   background:linear-gradient(90deg, #FFB347 0%, #FF2FD8 50%, #7B2FFF 100%) ;
+   border: none;
+}
+nav{
+    display: flex;
+    gap: 24px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/*banner styling*/
+.banner-section{
+    background-image: url("./B13-A02-TechWave/assets/hero-bg.png");
+    min-height: 760px;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 40px;
+}
+.banner-h1{
+    font-weight: 800;
+    font-size: 3.75rem;
+    color: #FFFFFF;
+   margin-top: 40px;
+   text-align: center;
+}
+.banner-p{
+    margin-top: 8px;
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #FFFFFF;
+    max-width: 550px;
+    text-align: center;
+}
+.banner-btn1,.banner-btn2{
+    padding: 12px 20px;
+    border-radius: 10000px;
+    border: none;
+    height: 44px;
+    background-color: #FF2FD8;
+    font-weight: 600;
+    font-size: 1rem;
+      margin-top: 24px;
+      margin-bottom: 102px;
+}
+.banner-btn2{
+    width: 147px;
+    color: #00FF88;
+    background: transparent;
+    border: 1px solid #00FF88;
+}
+.banner-btn1{
+    width: 173px;
+    height: 44px;
+   color: #FFFFFF;
+   background: linear-gradient(90deg, #FFB347 0%, #FF2FD8 50%, #7B2FFF 100%);
+}
+.banner-btn{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-circle{
+     width: 350px;
+    height: auto;
+   /* display: block;*/
+    border-radius: 50%;
+    border-color:#2A186C;
+}
+.mic{
+    width: 175px;
+    height: auto;
+}
+.badge{
+    background-color: #00FF88;
+    padding: 8px 16px;
+    border-radius: 1000px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    display: inline-block;
+}
+.banner-img-parent{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mic{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.badge{
+    position: absolute;
+    top: 13px;
+    right: 12px;
+}
+.banner-section > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.banner-section.container{
+ padding-top:  140px;
+}
